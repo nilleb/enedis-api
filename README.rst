@@ -52,6 +52,8 @@ Dev env
 -------
 create virtual env and install requirements
 
-    virtualenv -p /usr/bin/python3.5 env
-    pip install -r requirements.txt
+.. code-nlock:: bash
 
+    python3 -m venv venv
+    . venv/bin/activate
+    pip install -r requirements.txt
