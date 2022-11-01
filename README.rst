@@ -44,13 +44,13 @@ You can also download the source code and install it manually::
 
 Usage
 -----
-Print your current data
+Print your current data::
 
     pylinky -c <client_id> -s <client_secret> -u <redirect_url>
 
 Dev env
 -------
-create virtual env and install requirements
+create virtual env and install requirements::
 
     python3 -m venv venv
     . venv/bin/activate
